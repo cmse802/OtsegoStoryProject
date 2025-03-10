@@ -9,7 +9,7 @@ Justice for Otsego is a nonprofit organization dedicated to raising awareness ab
 
 # Installation and Usage
 
-Below are streamlined instructions for setting up the project. If you need more detailed instructions or encounter any issues, please refer to our [INSTALL.md](./INSTALL.md) file for additional help and troubleshooting tips.
+Below are streamlined instructions for setting up the project.
 
 ## Prerequisites
 
@@ -113,7 +113,6 @@ If you prefer using Conda (highly recommended by some instructors), follow these
 If you run into any issues or have questions:
 - Submit an issue on GitHub.
 - Contact one of the repository maintainers directly.
-- Consult the [INSTALL.md](./INSTALL.md) file for more in-depth help.
 
 ---
 
