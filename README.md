@@ -5,3 +5,47 @@ This is the official repository for the CMSE 495 Justice for Otsego project. Jus
 Link to our storyboard video:
 
 https://www.youtube.com/watch?v=OEhunFWDuG8
+
+
+# Installation Development
+
+## Prerequisites
+
+You need
+- python installed. Any version later than 3.10 works.
+- A facebook account with a username and password. Make sure that account has access to the "Justice for Otsego" facebook group.
+
+
+
+## Installation
+
+Clone the repo, and run 
+
+```bash
+python -m venv .venv
+```
+
+Activate the environment.
+
+- On VS code: go to `select python interpreter` and choose .venv
+- On windows, run `.venv/Scripts/activate`
+- On mac/linux, run `source .venv/bin/activate`
+
+Run the following
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+cp .env.example .env
+```
+
+And then fill in the values in the `.env` file created with your own.
+
+You can now run the code in the jupyter notebooks. 
+
+## Usage
+
+Code for the facebook scraper is in experiments/fb-scraper.ipynb. The analysis and visualization is rudimentary and experimental right now, but we will develop a more thorough and user friendly pipeline later on.
+
