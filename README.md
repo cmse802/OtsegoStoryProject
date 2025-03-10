@@ -7,7 +7,7 @@ Link to our storyboard video:
 https://www.youtube.com/watch?v=OEhunFWDuG8
 
 
-# Installation Development
+# Installation and Usage
 
 ## Prerequisites
 
