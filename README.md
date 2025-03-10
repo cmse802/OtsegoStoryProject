@@ -110,8 +110,6 @@ If you prefer using Conda (highly recommended by some instructors), follow these
 
 # Additional Resources and Support
 
-For more detailed instructions, troubleshooting, and best practices (including possible data import/export specifics or advanced usage scenarios), please check our [INSTALL.md](./INSTALL.md). 
-
 If you run into any issues or have questions:
 - Submit an issue on GitHub.
 - Contact one of the repository maintainers directly.
@@ -127,16 +125,4 @@ We welcome contributions! Please follow these steps for a smooth collaboration p
 3. Make your changes or additions.
 4. Submit a pull request detailing your changes.
 
-All contributors are expected to adhere to our Code of Conduct.
-
 ---
-
-# License
-
-This project is licensed under the terms specified in the [LICENSE](./LICENSE) file. By contributing to this repository, you agree that your contributions will be licensed under its terms.
-
----
-
-# Contact
-
-For additional support or inquiries, please reach out to the Justice for Otsego team at [team@justiceforotsego.org](mailto:team@justiceforotsego.org).
