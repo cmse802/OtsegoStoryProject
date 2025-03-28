@@ -163,7 +163,7 @@ Firstly, you will follow the first 4 steps of the quick instal guide.
 7. **Open and make changes to "driver_initialization.py"**
    The offending code is found in the "elif browser_name.lower() == "firefox":" loop.
    Change the entire loop to:
-   
+   ```python
    elif browser_name.lower() == "firefox":
             browser_option = FirefoxOptions()
             if self.proxy is not None:
@@ -178,7 +178,8 @@ Firstly, you will follow the first 4 steps of the quick instal guide.
             return webdriver.Firefox(executable_path="/usr/local/bin/geckodriver", options=self.set_properties(browser_option))
         else:
             raise Exception("Browser not supported!")
-
+   ```
+   
 8. **Uninstall and then install the proper Geckodriver for our architecture**
 
   ```bash
