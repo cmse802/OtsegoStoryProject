@@ -237,3 +237,32 @@ We welcome contributions! Please follow these steps for a smooth collaboration p
 4. Submit a pull request detailing your changes.
 
 ---
+
+# Plot Reproducibility 
+
+One of our goals is to ensure the reproducability of the project by making individual instructions that can be used to generate project figures. All figures we generate as part of our project should be able to be reproduced from these instructions. After the sentiment analysis code shown above, we are going to use those variables to create basic plots to visualize the data. Copy the code below and add it to your notebook to visualize the results.
+
+```python
+import matplotlib.pyplot as plt
+ 
+# Labels and values for the bar chart
+labels = ['Positive', 'Negative', 'Neutral']
+counts = [positive_count, negative_count, neutral_count]
+ 
+# bar chart
+plt.figure(figsize=(8, 5))
+plt.bar(labels, counts)
+plt.title('Facebook Post Sentiment Breakdown')
+plt.xlabel('Sentiment')
+plt.ylabel('Number of Posts')
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.tight_layout()
+plt.show()
+
+ 
+# Pie chart
+plt.figure(figsize=(6, 6))
+plt.pie(counts, labels=labels, autopct='%1.1f%%', startangle=140)
+plt.title('Sentiment Distribution')
+plt.show()
+   ```
