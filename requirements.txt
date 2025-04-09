@@ -3,3 +3,11 @@ facebook-page-scraper==5.0.6
 selenium-wire
 setuptools
 blinker==1.7.0
+pandas
+nltk
+numpy
+scikit-learn
+transformers==4.35.0
+torch>=2.6
+beautifulsoup4
+streamlit
