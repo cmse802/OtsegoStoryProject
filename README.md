@@ -77,11 +77,7 @@ If you prefer using Conda (highly recommended by some instructors), follow these
     ```bash
     cd justice-for-otsego
     ```
-3. **Create a conda environment** (using an existing `environment.yml` if provided, or manually install packages):
-    ```bash
-    conda env create --prefix ./envs --file environment.yml
-    ```
-    If you do not have an `environment.yml` file, you can still do:
+3. **Create a conda environment**:
     ```bash
     conda create --name justiceenv python=3.10
     conda activate justiceenv
