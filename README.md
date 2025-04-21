@@ -12,9 +12,15 @@ Justice for Otsego is a nonprofit organization dedicated to raising awareness ab
 
 ---
 
-# Installation and Usage
 
-Below are streamlined instructions for setting up the project.
+# Reproducibility: Quick start
+
+To run the code, you can visit [Google Colab Notebook](https://colab.research.google.com/github/uzairname/OtsegoStoryProject/blob/main/experiments/Final_Analysis_Results.ipynb)
+
+
+# Reproducibility: Installation and Usage
+
+Below are streamlined instructions for setting up the project in your local environment
 
 ## Prerequisites
 
