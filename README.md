@@ -8,6 +8,9 @@ Justice for Otsego is a nonprofit organization dedicated to raising awareness ab
 ## Justice for Otsego Project Plan Video
 [Watch on YouTube](https://www.youtube.com/watch?v=OEhunFWDuG8)
 
+## Justice for Otsego Final Video
+[Watch on YouTube](https://youtu.be/ujOQ5MFLI9w)
+
 ---
 
 # Installation and Usage
