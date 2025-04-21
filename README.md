@@ -1,7 +1,6 @@
 
 Justice for Otsego
 =======
-# Otsego
 
 Justice for Otsego is a nonprofit organization dedicated to raising awareness about the health issues affecting Otsego County. Our mission is to use data science to showcase trends in the community. This repository contains resources, project updates, and data analysis to support our ongoing efforts. Thank you for your interest and support!
 
@@ -101,6 +100,8 @@ If you prefer using Conda (highly recommended by some instructors), follow these
     jupyter notebook
     ```
     From here, open the notebook (e.g., `experiments/fb-scraper.ipynb`) and proceed.
+
+--- PJ- =---
 
 **Installation for Intel Mac (Macbook Pro 2019 and before)**
 
@@ -214,6 +215,9 @@ Firstly, you will follow the first 4 steps of the quick instal guide.
     ```
     From here, open the notebook (e.g., `experiments/fb-scraper.ipynb`) and proceed.
 
+
+    ----------- end pj gi ------
+
 ## Usage
 
 - **Facebook Scraper**: The main scraping functionality is currently in `experiments/fb-scraper.ipynb`. Open that notebook in Jupyter to scrape posts and gather data from the Facebook group.
@@ -242,6 +246,6 @@ We welcome contributions! Please follow these steps for a smooth collaboration p
 
 # Plot Reproducibility 
 
-One of our goals is to ensure the reproducability of the project by making individual instructions that can be used to generate project figures. All figures we generate as part of our project should be able to be reproduced from the instructions located in experiments/figure_reproducibility_instructions.ipynb. 
+One of our goals is to ensure the reproducability of the project by making individual instructions that can be used to generate project figures. All figures we generate as part of our project should be able to be reproduced from the instructions located in experiments/Final_figure_reproducibility_instructions.ipynb. 
 
 
