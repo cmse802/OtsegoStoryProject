@@ -252,6 +252,6 @@ We welcome contributions! Please follow these steps for a smooth collaboration p
 
 # Plot Reproducibility 
 
-One of our goals is to ensure the reproducability of the project by making individual instructions that can be used to generate project figures. All figures we generate as part of our project should be able to be reproduced from the instructions located in experiments/Final_figure_reproducibility_instructions.ipynb. 
+One of our goals is to ensure the reproducability of the project by making individual instructions that can be used to generate project figures. All figures we generate as part of our project should be able to be reproduced from the instructions. To run the code, you can visit [Google Colab Notebook](https://colab.research.google.com/github/uzairname/OtsegoStoryProject/blob/main/experiments/reproducibility.ipynb)
 
 
