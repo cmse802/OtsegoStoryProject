@@ -109,22 +109,36 @@ If you prefer using Conda (highly recommended by some instructors), follow these
 
 ## Final Setup: Installing Chromedriver and Exporting Cookies
 
-1. **Export Cookies Using Firefox**
-2. Go to Facebook.com and sign into your account using Firefox
-3. Install this browser extension, "Cookie-Editor", from the link below.
-https://cookie-editor.com/
-4. Open the cookie editor while in Facebook and click the button in the bottom right corner to export cookies to JSON.
-5. Copy the cookies to your clipboard and go to your experiments folder inside the OtsegoStoryProject diretory.
-6. Create a new text file and name is "fb_cookies.json"
-7. Paste the cookie json data into text document and then you've completed that step.
+Follow these final steps to prepare your environment for scraping.
 
-8. **Download Chromedriver**
-9. Chromedriver is an efficient way to automate the scraping process, and the installation is quite simple.
-10. Make sure your current version of Google Chrome is up to date!
-11. Go to the link below and download the Chromedriver for your system!
-https://googlechromelabs.github.io/chrome-for-testing/
-12. Be sure to extract the .zip in your DOWNLOADS folder! It will not work otherwise!
-13. We are now done with the Chromedriver installation!
+---
+
+### Step 1: Export Facebook Cookies Using Firefox
+
+1. **Open [facebook.com](https://facebook.com)** in Firefox and log into your account (the demo notebook scrapes the Overwatch 2 public group).
+2. Install the Cookie-Editor extension:  
+ [https://cookie-editor.com/](https://cookie-editor.com/)
+3. While on Facebook, click the Cookie-Editor icon in your toolbar.
+4. Click the **Export** button (bottom right corner) to copy cookies as JSON.
+5. Navigate to your `experiments/` folder inside the `OtsegoStoryProject` directory.
+6. Create a new text file named exactly:
+`fb_cookies.json`
+7. Paste the copied cookie JSON into this file and save.
+
+You're done with the cookie setup!
+
+### Step 2: Download Chromedriver
+
+1. Check your Chrome version by visiting:  
+`chrome://settings/help`
+2. Go to the ChromeDriver download site:  
+ [https://googlechromelabs.github.io/chrome-for-testing/](https://googlechromelabs.github.io/chrome-for-testing/)
+3. Download the matching ChromeDriver version for your system.
+4. Extract the `.zip` file.
+5. Move the extracted `chromedriver` into your `Downloads` folder, if not already there.  
+The scraper looks there automatically.
+
+ChromeDriver is now ready to go!
 
 ## Now, you can use our scraper!
 
